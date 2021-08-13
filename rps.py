@@ -37,12 +37,3 @@ winner = whoWins(user_choice, computer_choice)
 print(winner)
 
 # CHALLENGE: Make a loop that keeps the game going until you win!
-
-'''
-while winner != "You win!":
-    user_choice = input("Enter: ")
-    computer_choice = generate_hand()
-    print("The computer chose " + computer_choice)
-    winner = whoWins(user_choice, computer_choice)
-    print(winner)
-'''
